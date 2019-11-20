@@ -1,0 +1,39 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: Helvetica, 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+header {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 250px;
+  grid-gap: 30px;
+}
+
+header, main {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header > img {
+  border-radius: 150px;
+  box-shadow: 0px 0px 15px 5px #3f3334;
+}
+
+footer > p {
+  margin: auto;
+  width: fit-content;
+}
