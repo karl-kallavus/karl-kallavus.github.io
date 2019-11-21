@@ -52,3 +52,23 @@ footer > p {
   margin: auto;
   width: fit-content;
 }
+
+@media (prefers-color-scheme: dark) {
+  html {
+    background-color: #1f262f;
+    color: #dedede;
+  }
+
+  header > img {
+    border-radius: 150px;
+    box-shadow: 0px 0px 15px 5px #4e626f;
+  }
+
+  a {
+    color: #80d8ec;
+  }
+
+  a:visited {
+    color: #e89f51;
+  }
+}
